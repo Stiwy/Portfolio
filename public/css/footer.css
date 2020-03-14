@@ -1,0 +1,75 @@
+footer {
+  background-color: #292929;
+  color: white;
+  padding-top: 30px;
+}
+
+.contact_information > h4 {
+  margin-bottom: 20px;
+}
+.contact_information > h4 > span {
+  border-bottom: 2px solid rgba(255, 145, 0, 0.918);
+}
+.contact_information > ul {
+  list-style: none;
+  font-size: 1.1em;
+  padding-left: 20px;
+}
+
+.contact_icons {
+  text-align: center;
+}
+.contact_icons > h4 {
+  margin-bottom: 20px;
+}
+.contact_icons > h4 > span {
+  border-bottom: 2px solid rgba(255, 145, 0, 0.918);
+}
+.contact_icons > a:hover > img {
+  filter: grayscale(0);
+}
+.contact_icons > a > img {
+  width: 60px;
+  filter: grayscale(1);
+}
+
+.copyright {
+  text-align: center;
+  background-color: #222222;
+  font-size: 1.2em;
+  padding: 10px 0 5px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .contact_information > h4 {
+    font-size: 1.2em;
+  }
+  .contact_information > ul {
+    font-size: 0.8em;
+  }
+
+  .contact_icons {
+    text-align: center;
+  }
+  .contact_icons > h4 {
+    font-size: 1.2em;
+  }
+  .contact_icons > a > img {
+    width: 35px;
+  }
+
+  .copyright {
+    font-size: 1em;
+  }
+}
+@media screen and (max-width: 425px) {
+  footer {
+    text-align: center;
+  }
+
+  .copyright {
+    font-size: 0.8em;
+  }
+}
+
+/*# sourceMappingURL=footer.css.map */

@@ -1,0 +1,90 @@
+#skills_training { 
+    background-color: rgb(63, 62, 62);
+    color: white;
+
+    div {
+        text-align: center;
+    }
+}
+
+.skillsLine {
+    padding-top: 50px;
+
+    div {
+        text-align: center;
+
+        p {
+            font-weight: bold;
+            font-size: 1.4em;
+            img {
+                width: 30%;
+                margin-bottom: 10px;
+            }
+
+            &> span {
+                display: none;
+            }
+        }
+        #bootstrap, #wordpress {
+            width: 20%;
+        }
+
+        #mysql {
+            width: 35%;
+        }
+    }
+}
+
+.skills-name {
+    background-color: rgb(88, 87, 87);
+    height: 25px;
+    
+    text-align: center;
+
+   &> p {
+        font-weight: bold;
+        text-align: center;
+        font-size: 1.2em;
+        font-family: 'Museo_Slab';
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .skillsLine {
+    
+        div {
+    
+            p {
+    
+                &> span {
+                    display: inline;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 425px) {
+    
+    .skillsLine {
+        padding-top: 0px;
+        div {
+            p {
+                text-align: center;
+                img {
+                    margin-top: 20px;
+                }
+
+                span {
+                    display: block;
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+
+    .skills-name-group {
+        display: none;
+    } 
+}
+

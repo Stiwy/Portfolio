@@ -1,0 +1,139 @@
+#training {
+    border-top: rgb(172, 172, 172) 3px solid;
+    margin-top: 110px;
+}
+
+.training-col-left {
+
+    &> ul{
+        list-style: none;
+        text-align: left;
+
+        &> li {
+            margin-bottom: 30px;
+
+            &:hover {
+                transition-duration: 1s;    
+                margin-left: 25px;
+            }
+
+            .a_training {
+                display: block;
+                color: white;
+            
+                &:hover {
+                    text-decoration: none;
+                    color: rgba(255, 213, 159, 0.918);
+                }
+            
+                h3 {
+            
+                    &> span {
+                        font-size: 0.8em;
+                        color: rgba(255, 145, 0, 0.918);
+                    }
+                }
+            }
+            
+            ul {
+                list-style: none;
+            }
+        }
+    }
+}
+
+.icon_validate {
+    color: rgb(0, 212, 0);
+}
+
+.icon_notValidate {
+    color: rgb(255, 255, 255);
+}
+
+.training-col-rigth{
+    color: rgba(255, 145, 0, 0.918);
+    
+    &> svg {
+        margin-bottom: 20px;
+    }
+}
+
+.training-logo-1{
+    width: 300px;
+}
+
+.training-logo-2{
+    width: 220px;
+}
+
+@media screen and (max-width: 1024px) {
+    .training-col-left {      
+        h3 {
+            font-size: 1.6em;
+            
+        }        
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .training-col-left {
+        h3 {
+            font-size: 1.2em;
+    
+            &> span {
+                font-size: 0.7em;
+            }
+        }
+    }
+
+    .training-sub-list {
+        font-size: 0.8em;
+    }
+
+    .training-col-rigth{
+        display: none;
+    }
+
+    .training-logo-1 {
+        width: 200px;
+    }
+
+    .training-logo-2 {
+        width: 140px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .training-col-left {
+
+        &> ul {
+            padding: unset;
+        }
+
+        h3 {
+            font-size: 1em;
+    
+            &> span {
+                font-size: 0.7em;
+            }
+        }
+    }
+
+    .training-sub-list {
+        padding-left: 20px;
+        font-size: 0.7em;
+
+        &> li {
+            margin: 5px 0;
+        }
+    }
+
+    .training-logo-1 {
+        width: 140px;
+    }
+
+    .training-logo-2 {
+        width: 100px;
+    }
+}
+    

@@ -1,0 +1,105 @@
+#contact {
+  color: white;
+  background-color: #3f3e3e;
+  padding-bottom: 70px;
+}
+#contact > div > h2 {
+  text-align: center;
+}
+#contact > div > p {
+  text-align: center;
+}
+
+label {
+  margin-top: 20px;
+  font-size: 1.2em;
+}
+
+input {
+  width: 100%;
+  height: 40px;
+  font-size: 1.3em;
+  border-radius: 10px;
+  border: none;
+}
+input:required {
+  background: url("../image/asterisk.png") 98% center no-repeat;
+  background-size: 10px;
+  background-color: #e2e2e2;
+}
+
+.contact:focus {
+  outline: none;
+}
+
+.contact:focus:invalid {
+  border: 2px solid red;
+  background: url("../image/in-validate.png") 98% center no-repeat;
+  background-size: 30px;
+  background-color: #e2e2e2;
+  box-shadow: rgba(255, 0, 0, 0.39) 0 0 6px;
+}
+
+.contact:valid {
+  border: 2px solid #13d413;
+  background: url("../image/validate.png") 98% center no-repeat;
+  background-size: 30px;
+  background-color: #e2e2e2;
+  box-shadow: rgba(19, 212, 19, 0.39) 0 0 6px;
+}
+
+textarea {
+  width: 100%;
+  height: 30vh;
+  border-radius: 10px;
+  font-size: 1.3em;
+  background-color: #e2e2e2;
+}
+
+.btn_contact {
+  font-size: 1.2em;
+}
+
+@media screen and (max-width: 1024px) {
+  label {
+    font-size: 1.1em;
+  }
+
+  input {
+    height: 35px;
+    font-size: 1.15em;
+  }
+
+  textarea {
+    height: 30vh;
+    font-size: 1.15em;
+  }
+
+  .btn_contact {
+    font-size: 1.15em;
+  }
+}
+@media screen and (max-width: 768px) {
+  input {
+    height: 30px;
+  }
+}
+@media screen and (max-width: 425px) {
+  label {
+    font-size: 1em;
+  }
+
+  input {
+    font-size: 1em;
+  }
+
+  textarea {
+    font-size: 1em;
+  }
+
+  .btn_contact {
+    font-size: 1em;
+  }
+}
+
+/*# sourceMappingURL=contact.css.map */
