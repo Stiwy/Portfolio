@@ -12,6 +12,10 @@
         &> li {
             margin-bottom: 30px;
 
+            strong {
+                font-weight: unset;
+            }
+
             &:hover {
                 transition-duration: 1s;    
                 margin-left: 25px;

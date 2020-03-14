@@ -140,60 +140,60 @@
 
                 <div class="skillsLine row">
                     <div class="col-md-4">
-                        <p><img src="public/image/logo/css-html.png" alt=""><span> HTML / CSS</span></p>
+                        <p><img src="public/image/logo/css-html.png" alt=""><strong> HTML / CSS</strong></p>
                     </div>
                     <div class="col-md-4">
-                        <p><img src="public/image/logo/php.png" alt=""><span>  PHP</span></p>
+                        <p><img src="public/image/logo/php.png" alt=""><strong>  PHP</strong></p>
                     </div>
                     <div class="col-md-4">
-                        <p><img id="bootstrap" src="public/image/logo/bootstrap.png" alt=""><span> Bootstrap</span></p>
+                        <p><img id="bootstrap" src="public/image/logo/bootstrap.png" alt=""><strong> Bootstrap</strong></p>
                     </div>
                 </div>
                 <div class="skills-name-group row">
                     <div class="skills-name col-md-4 d-none d-md-inline">
-                        <p>HTML / CSS</p>   
+                        <p><strong>HTML / CSS</strong></p>   
                     </div>
                     <div class="skills-name col-md-4 d-none d-md-inline">
-                        <p>PHP</p>   
+                        <p><strong>PHP</strong></p>   
                     </div>
                     <div class="skills-name col-md-4 d-none d-md-inline">
-                        <p>Bootstrap</p>   
+                        <p><strong>Bootstrap</strong></p>   
                     </div>
                 </div>
 
                 <div class="skillsLine row">
                     <div class="col-md-4">
-                        <p><img id="wordpress" src="public/image/logo/wordpress.png" alt=""><span> WordPress</span></p>
+                        <p><img id="wordpress" src="public/image/logo/wordpress.png" alt=""><strong> WordPress</strong></p>
                         
                     </div>
                     <div class="col-md-4">
-                        <p><img id="mysql"  src="public/image/logo/mysql.png" alt=""><span> MySQL</span></p>
+                        <p><img id="mysql"  src="public/image/logo/mysql.png" alt=""><strong> MySQL</strong></p>
                         
                     </div>
                     <div class="col-md-4">
-                        <p><img id="bootstrap" src="public/image/logo/sass.png" alt=""><span> Sass</span></p>
+                        <p><img id="bootstrap" src="public/image/logo/sass.png" alt=""><strong> Sass</strong></p>
                     </div>
                 </div>
                 <div class="skills-name-group row">
                     <div class="skills-name col-md-4 d-none d-md-inline">
-                        <p>WordPress</p>   
+                        <p><strong>WordPress</strong></p>   
                     </div>
                     <div class="skills-name col-md-4 d-none d-md-inline">
-                        <p>MySQL</p>   
+                        <p><strong>MySQL</strong></p>   
                     </div>
                     <div class="skills-name col-md-4 d-none d-md-inline">
-                        <p>Sass</p>   
+                        <p><strong>Sass</strong></p>   
                     </div>
                 </div>
 
                 <div class="skillsLine row">
                     <div class="offset-md-4 col-md-4">
-                        <p><img src="public/image/logo/git.png" alt=""><span> Git</span></p>
+                        <p><img src="public/image/logo/git.png" alt=""><strong> Git</strong></p>
                     </div>
                 </div>
                 <div class="skills-name-group row justify-content-center">
                 <div class="skills-name col-md-4 d-none d-md-inline">
-                        <p>Git</p>   
+                        <p><strong>Git</strong></p>   
                     </div>
                 </div>
             </div>
@@ -209,39 +209,39 @@
                             <li>
                                 <?php if (isset($_GET['more']) && $_GET['more'] == '1') :?>
                                     <a class="a_training" href="index.php?#training">
-                                        <h3><?php training_list_drop_down() ?>Développeur d'application - PHP / Symfony <span>[A venir]</span></h3>
+                                        <h3><?php training_list_drop_down() ?><strong>Développeur d'application - PHP / Symfony</strong> <span>[A venir]</span></h3>
                                     </a>
                                 
                                     <ul class="training-sub-list">
-                                        <li><?php training_subList_notValidate() ?> Analyser un cahier des charges et choisir une solution technique adaptée parmi les solutions existantes.</li>
-                                        <li><?php training_subList_notValidate() ?> Concevoir l’architecture technique d’une application à l’aide de diagrammes UML.</li>
-                                        <li><?php training_subList_notValidate() ?> Créer des projets web dynamiques grâce PHP.</li>
-                                        <li><?php training_subList_notValidate() ?> Communiquer avec une base de données pour stocker et requêter des informations.</li>
-                                        <li><?php training_subList_notValidate() ?> Développer de manière professionnelle grâce au framework Symfony.</li>
-                                        <li><?php training_subList_notValidate() ?> Mettre en oeuvre des tests unitaires et fonctionnels ainsi qu’utiliser les outils les plus connus d’intégration continue.</li>
-                                        <li><?php training_subList_notValidate() ?> Produire une documentation technique et fonctionnelle de l’application.</li>
-                                        <li><?php training_subList_notValidate() ?> Prendre en compte les problématiques de performance d’une application PHP.</li>
+                                        <li><?php training_subList_notValidate() ?> Analyser un <strong>cahier des charges</strong> et choisir une solution technique adaptée parmi les solutions existantes.</li>
+                                        <li><?php training_subList_notValidate() ?> Concevoir l’architecture technique d’une <strong>application</strong> à l’aide de diagrammes UML.</li>
+                                        <li><?php training_subList_notValidate() ?> Créer des <strong>projets web dynamiques</strong> grâce <strong>PHP</strong>.</li>
+                                        <li><?php training_subList_notValidate() ?> Communiquer avec une <strong>base de données</strong> pour stocker et requêter des informations.</li>
+                                        <li><?php training_subList_notValidate() ?> Développer de manière professionnelle grâce au <strong>framework Symfony</strong>.</li>
+                                        <li><?php training_subList_notValidate() ?> Mettre en oeuvre des <strong>tests unitaires</strong> et fonctionnels ainsi qu’utiliser les outils les plus connus d’intégration continue.</li>
+                                        <li><?php training_subList_notValidate() ?> Produire une <strong>documentation technique</strong> et fonctionnelle de l’application.</li>
+                                        <li><?php training_subList_notValidate() ?> Prendre en compte les problématiques de <strong>performance d’une application PHP</strong>.</li>
                                     </ul>
                                 <?php else : ?>
                                     <a class="a_training" href="index.php?more=1&amp;#training">
-                                        <h3><?php training_list_unrolled() ?>Développeur d'application - PHP / Symfony <span>[A venir]</span></h3>
+                                        <h3><?php training_list_unrolled() ?><strong>Développeur d'application - PHP / Symfony</strong> <span>[A venir]</span></h3>
                                     </a>
                                 <?php endif ; ?>
                             </li>
                             <li>
                                 <?php if (isset($_GET['more']) && $_GET['more'] == '2') :?>
                                     <a class="a_training" href="index.php?#training">
-                                        <h3><?php training_list_drop_down() ?>Prép'fullstack <span>[En cour]</span></h3>
+                                        <h3><?php training_list_drop_down() ?>Prép'<strong>fullstack</strong> <span>[En cour]</span></h3>
                                     </a>
                                     <ul class="training-sub-list">
-                                        <li><?php training_subList_validate() ?> Adapter un thème Wordpress.</li>
-                                        <li><?php training_subList_validate() ?> Coder la structure d’une page en HTML5.</li>
-                                        <li><?php training_subList_validate() ?> Modéliser une base de données.</li>
-                                        <li><?php training_subList_validate() ?> Recueillir la saisie d’un formulaire utilisateur en langage PHP.</li>
+                                        <li><?php training_subList_validate() ?> Adapter un <strong>thème Wordpress</strong>.</li>
+                                        <li><?php training_subList_validate() ?> <strong>Coder</strong> la structure d’une <strong>page en HTML5</strong>.</li>
+                                        <li><?php training_subList_validate() ?> Modéliser une <strong>base de données</strong>.</li>
+                                        <li><?php training_subList_validate() ?> Recueillir la <strong>saisie d’un formulaire utilisateur</strong> en <strong>langage PHP</strong>.</li>
                                     </ul>
                                 <?php else : ?> 
                                     <a class="a_training" href="index.php?more=2&amp;#training">
-                                        <h3><?php training_list_unrolled() ?>Prép'fullstack <span>[En cours]</span></h3>
+                                        <h3><?php training_list_unrolled() ?>Prép' <strong>fullstack</strong> <span>[En cours]</span></h3>
                                     </a>
                                 <?php endif ; ?>
                             </li>

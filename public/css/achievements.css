@@ -10,6 +10,7 @@
 }
 .achievements:hover {
   filter: grayscale(0);
+  cursor: pointer;
 }
 .achievements:hover > a:hover {
   text-decoration: none;

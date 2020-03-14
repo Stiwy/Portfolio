@@ -20,7 +20,7 @@
   width: 30%;
   margin-bottom: 10px;
 }
-.skillsLine div p > span {
+.skillsLine div p > strong {
   display: none;
 }
 .skillsLine div #bootstrap, .skillsLine div #wordpress {
@@ -57,7 +57,7 @@
   .skillsLine div p img {
     margin-top: 20px;
   }
-  .skillsLine div p span {
+  .skillsLine div p strong {
     display: block;
     margin: 0 auto;
   }
